@@ -38,3 +38,10 @@ export const Text = styled.span`
     color: ${theme.color.white};
   `}
 `;
+
+export const FieldSvg = styled.svg`
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 444 / 324;
+`;

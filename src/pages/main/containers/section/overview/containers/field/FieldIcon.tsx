@@ -3,6 +3,8 @@ import React, { Fragment, useEffect, useState } from "react";
 import { PLAYERS_DATA } from "@/constants/field";
 import { getBoundedValue, getRandomPoint } from "@/utils/number";
 
+import * as S from "./Field.styled";
+
 const FieldIcon = () => {
   const [position, setPosition] = useState(PLAYERS_DATA);
 
@@ -29,9 +31,7 @@ const FieldIcon = () => {
   }, []);
 
   return (
-    <svg
-      width="420"
-      height="300"
+    <S.FieldSvg
       viewBox="-12 -12 444 324"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +142,7 @@ const FieldIcon = () => {
           />
         </Fragment>
       ))}
-    </svg>
+    </S.FieldSvg>
   );
 };
 
