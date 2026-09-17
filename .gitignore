@@ -1,0 +1,9 @@
+# Logs
+*.log
+pnpm-debug.log*
+
+# Dependencies
+node_modules
+
+# Editor
+.vscode/*

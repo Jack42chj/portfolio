@@ -1,0 +1,45 @@
+{
+    "name": "renew_pf",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "react": "^19.2.6",
+        "react-dom": "^19.2.6",
+        "recharts": "^3.9.1"
+    },
+    "devDependencies": {
+        "@emotion/babel-plugin": "^11.13.5",
+        "@eslint/js": "^10.0.1",
+        "@svgr/rollup": "^8.1.0",
+        "@types/node": "^24.12.3",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^6.0.1",
+        "eslint": "^10.3.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-import-resolver-typescript": "^4.4.5",
+        "eslint-plugin-prettier": "^5.5.6",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-react-refresh": "^0.5.2",
+        "eslint-plugin-unused-imports": "^4.4.1",
+        "globals": "^17.6.0",
+        "postcss-styled-syntax": "^0.7.2",
+        "prettier": "^3.8.4",
+        "stylelint": "^17.14.0",
+        "stylelint-order": "^8.1.1",
+        "typescript": "~6.0.2",
+        "typescript-eslint": "^8.59.2",
+        "vite": "^8.0.12",
+        "vite-plugin-checker": "^0.14.4"
+    }
+}
