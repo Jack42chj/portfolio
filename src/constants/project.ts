@@ -15,21 +15,21 @@ export const PROJECT_DATA: ProjectItem[] = [
   {
     description: "라오스 종합 생활 서비스 KOKKOK의 관리자 웹 페이지",
     image: KokkokImage,
-    skills: ["React", "Typescipt"],
+    skills: ["React", "TypeScript"],
     tag: "team",
     title: "KOKKOK Admin",
   },
   {
     description: "라오스 여객 운송 서비스 KOKKOK Move의 관리자 웹 페이지",
     image: KokkokMoveImage,
-    skills: ["React", "Typescipt"],
+    skills: ["React", "TypeScript"],
     tag: "team",
     title: "KOKKOK Move Admin",
   },
   {
     description: "라오스 신차·중고차 판매 서비스 KOKKOK Car의 관리자 웹 페이지",
     image: KokkokCarImage,
-    skills: ["React", "Typescipt"],
+    skills: ["React", "TypeScript"],
     tag: "team",
     title: "KOKKOK Car Admin",
   },
@@ -37,7 +37,7 @@ export const PROJECT_DATA: ProjectItem[] = [
     description:
       "라오스 모빌리티 기업 Lao Smart Mobility의 기업 및 주요 서비스를 소개하는 반응형 웹사이트",
     image: LSMImage,
-    skills: ["Next", "Typescript"],
+    skills: ["Next", "TypeScript"],
     tag: "team",
     title: "LSM Landing",
   },
@@ -90,7 +90,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
     skills: [
       "Vite",
       "React",
-      "Typescript",
+      "TypeScript",
       "TanStack Query",
       "Zustand",
       "Emotion",
@@ -128,7 +128,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
     skills: [
       "Vite",
       "React",
-      "Typescript",
+      "TypeScript",
       "TanStack Query",
       "Zustand",
       "Emotion",
@@ -162,7 +162,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
     skills: [
       "Vite",
       "React",
-      "Typescript",
+      "TypeScript",
       "TanStack Query",
       "Zustand",
       "Emotion",
@@ -191,7 +191,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
     description:
       "라오스 모빌리티 기업 Lao Smart Mobility의 기업 가치와 비전, 주요 서비스를 소개하는 Next 기반 반응형 웹사이트 개발",
     image: LSMImage,
-    skills: ["Next", "Typescript", "Styled-Components", "i18n"],
+    skills: ["Next", "TypeScript", "Styled-Components", "i18n"],
     tag: "team",
     title: "LSM Landing",
     details: [
@@ -211,7 +211,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
     skills: [
       "Vite",
       "React",
-      "Typescript",
+      "TypeScript",
       "TanStack Query",
       "Styled-Components",
       "Zustand",
@@ -241,7 +241,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
       "Vite",
       "React",
       "Kakao Map API",
-      "Typescript",
+      "TypeScript",
       "Zustand",
       "Styled-Components",
       "TanStack Query",
@@ -268,7 +268,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
     image: BinzipImage,
     skills: [
       "Next",
-      "Typescript",
+      "TypeScript",
       "Zustand",
       "Tailwind CSS",
       "TanStack Query",
@@ -294,7 +294,7 @@ export const PROJECT_DETAIL: ProjectDetail[] = [
     skills: [
       "Vite",
       "React",
-      "Typescript",
+      "TypeScript",
       "Zustand",
       "Styled-Components",
       "TanStack Query",
