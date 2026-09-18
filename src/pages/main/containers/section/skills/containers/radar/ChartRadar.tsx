@@ -42,6 +42,7 @@ const ChartRadar = () => {
                   textAnchor={textAnchor}
                   fill={theme.color.white}
                   fontSize={isResize ? 12 : 16}
+                  fontFamily="Inter, sans-serif"
                 >
                   {lines.map((line: string, index: number) => (
                     <tspan key={index} x={x} dy={index === 0 ? 0 : 24}>
