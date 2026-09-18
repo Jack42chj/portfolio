@@ -1,4 +1,6 @@
-# 🙋‍♂️ HOJIN Portfolio
+# 🙋‍♂️ HOJIN. Scouting Report
+
+![logo](https://github.com/user-attachments/assets/f4164406-9c8a-455a-9c40-27a0b178073a)
 
 ## 🔗 웹 바로가기(Deployment)
 
@@ -48,10 +50,40 @@ https://hojindot.vercel.app/
 
 ## 📂 디렉토리 구조(Directory Structure)
 
+```
+src
+├─ assets
+├─ components
+├─ constants
+├─ hooks
+├─ pages
+├─ styles
+├─ types
+├─ utils
+├─ App.tsx
+└─ index.tsx
+```
+
 ## ⚡ 웹 성능 평가(Performance)
 
 ### 🌈 Google Lighthouse
 
+- Desktop
+
+![lighthouseD](https://github.com/user-attachments/assets/a7bf48df-40ec-46f1-8b6f-cab8e21e9068)
+
+- Mobile
+
+![lighthouseM](https://github.com/user-attachments/assets/c266379a-9aaa-4a46-a88e-4db038f17ae2)
+
 ### 🔥 Pingdom Website Speed Test
 
+![pingdom](https://github.com/user-attachments/assets/3991dddd-f88f-4b40-b80a-ef0bae364182)
+
 ## 🏖️ 미리보기 (Preview)
+![overview](https://github.com/user-attachments/assets/ce3b208f-303c-4149-98da-eb26e794dca8)
+![skill](https://github.com/user-attachments/assets/1409e45a-eecf-409b-9479-8b39de7a6131)
+![project](https://github.com/user-attachments/assets/85454f34-fcde-43e9-8a32-9fba131c67e1)
+![experience](https://github.com/user-attachments/assets/0a2527b4-4044-4995-989c-6be1e7dc16ed)
+![footer](https://github.com/user-attachments/assets/53693a14-c63f-46e7-a134-39035c74e3c6)
+
