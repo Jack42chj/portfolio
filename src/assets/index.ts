@@ -7,6 +7,7 @@ export { default as KokkokMoveImage } from "./image/kokkokmove.webp";
 export { default as LSMImage } from "./image/lsm.webp";
 export { default as MolbwaImage } from "./image/molbwa.webp";
 export { default as PortfolioImage } from "./image/portfolio.webp";
+export { default as ScoutImage } from "./image/scout.webp";
 export { ReactComponent as ArrowIcon } from "./icon/ic_arrow.svg";
 export { ReactComponent as BrushIcon } from "./icon/ic_brush.svg";
 export { ReactComponent as ChatIcon } from "./icon/ic_chat.svg";

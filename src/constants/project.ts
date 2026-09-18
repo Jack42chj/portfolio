@@ -8,10 +8,18 @@ import {
   LSMImage,
   MolbwaImage,
   PortfolioImage,
+  ScoutImage,
 } from "@/assets";
 import type { ProjectDetail, ProjectItem } from "@/types";
 
 export const PROJECT_DATA: ProjectItem[] = [
+  {
+    description: "프론트엔드 개발자 최호진의 스카우팅 리포트",
+    image: ScoutImage,
+    skills: ["React", "TypeScript"],
+    tag: "personal",
+    title: "Hojin Scouting Report",
+  },
   {
     description: "라오스 종합 생활 서비스 KOKKOK의 관리자 웹 페이지",
     image: KokkokImage,
@@ -83,6 +91,22 @@ export const PROJECT_DATA: ProjectItem[] = [
 ];
 
 export const PROJECT_DETAIL: ProjectDetail[] = [
+  {
+    description: "프론트엔드 개발자 최호진의 스카우팅 리포트",
+    image: ScoutImage,
+    skills: ["Vite", "React", "TypeScript", "Emotion", "Recharts", "Vercel"],
+    tag: "personal",
+    title: "Hojin Scouting Report",
+    details: [
+      "React와 TypeScript를 기반으로 재사용 가능한 UI 컴포넌트 설계 및 구현",
+      "Figma를 활용해 반응형 UI를 설계하고 디자인 가이드에 맞춰 컴포넌트 구현",
+      "Recharts를 활용해 기술 스택을 시각화한 Radar Chart 구현",
+      "SVG와 CSS 애니메이션을 활용해 축구 전술판 형태의 인터랙티브 UI 구현",
+      "GitHub와 Vercel을 연동해 CI/CD 기반 자동 배포 환경 구축",
+    ],
+    github_url: "https://github.com/Jack42chj/portfolio",
+    demo_url: "https://hojindot.vercel.app/",
+  },
   {
     description:
       "라오스 종합 생활 서비스 KOKKOK의 React 기반 다국어 관리자 웹 백오피스 개발 및 마트 상품·쿠폰·멤버십·공지사항 등 서비스 운영 기능 구현",
