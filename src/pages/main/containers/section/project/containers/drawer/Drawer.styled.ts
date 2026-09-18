@@ -31,7 +31,7 @@ export const Drawer = styled.dialog`
     flex-direction: column;
     width: 100%;
     height: 65%;
-    margin: 0;
+    margin: 0 8px;
     border: 1px solid ${theme.color.green};
     border-bottom: none;
     border-radius: 12px 12px 0 0;
@@ -43,6 +43,7 @@ export const Drawer = styled.dialog`
     @media (min-width: 640px) {
       width: 40%;
       height: 99%;
+      margin: 0;
       margin-right: 4px;
       border-bottom: 1px solid ${theme.color.green};
       border-radius: 12px;
