@@ -95,6 +95,7 @@ export const Wrapper = styled.div`
   row-gap: 16px;
   padding: 16px;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
 `;
 
 export const Row = styled.div`
