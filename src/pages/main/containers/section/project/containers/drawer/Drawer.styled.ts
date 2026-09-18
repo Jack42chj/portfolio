@@ -33,7 +33,9 @@ export const Drawer = styled.dialog`
     height: 65%;
     margin: 0;
     border: 1px solid ${theme.color.green};
-    border-radius: 12px;
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+    box-sizing: border-box;
     box-shadow: ${theme.boxShadow.drawer_shadow};
     background-color: ${theme.color.black_10};
     animation: 0.65s forwards ${slideUp};
@@ -42,6 +44,8 @@ export const Drawer = styled.dialog`
       width: 40%;
       height: 99%;
       margin-right: 4px;
+      border-bottom: 1px solid ${theme.color.green};
+      border-radius: 12px;
       animation: 0.65s forwards ${slideIn};
     }
   `}
